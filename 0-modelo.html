@@ -16,7 +16,19 @@
    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
  
    <script type="text/babel">
+
+    function App() {
+      return (
+        <main class="p-3">
+          ...
+        </main>
+      )
+    }
  
+    ReacDOM.createRoot(document.getelementById('roo')).render(
+      <App />
+    )
+
    </script>
  </body>
  
